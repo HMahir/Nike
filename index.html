@@ -416,4 +416,56 @@
       </p>
     </section>
   
-</body></html>
+</body>
+	<script>
+ const canvas = document.getElementById("cnv");
+const ctx = canvas.getContext("2d");
+
+ctx.save();
+ctx.strokeStyle = "rgba(0,0,0,0)";
+ctx.miterLimit = 4;
+ctx.font = "15px ''";
+ctx.scale(0.15, 0.15);
+ctx.scale(4.150324762912698, 4.150324762912698);
+ctx.save();
+ctx.font = "15px ''";
+ctx.save();
+ctx.fillStyle = "#332929"; // Barva ozadja ostane nespremenjena
+ctx.beginPath();
+ctx.moveTo(0, 0);
+ctx.lineTo(192.756, 0);
+ctx.lineTo(192.756, 192.756);
+ctx.lineTo(0, 192.756);
+ctx.lineTo(0, 0);
+ctx.closePath();
+ctx.fill("evenodd");
+ctx.stroke();
+ctx.restore();
+ctx.save();
+ctx.font = "15px ''";
+ctx.fillStyle = "#ffffff"; // Barva znaka nastavljena na belo
+ctx.beginPath();
+ctx.moveTo(42.741, 71.477);
+ctx.bezierCurveTo(32.86, 83.081, 23.386, 97.471, 23.291, 108.227);
+ctx.bezierCurveTo(23.254, 112.274, 24.546, 115.807, 27.645, 118.483);
+ctx.bezierCurveTo(32.105, 122.337, 37.019, 123.696, 41.909, 123.70400000000001);
+ctx.bezierCurveTo(49.055, 123.71400000000001, 56.150999999999996, 120.831, 61.706999999999994, 118.608);
+ctx.bezierCurveTo(71.064, 114.866, 174.497, 69.94900000000001, 174.497, 69.94900000000001);
+ctx.bezierCurveTo(175.495, 69.44900000000001, 175.30800000000002, 68.82600000000001, 174.05900000000003, 69.13700000000001);
+ctx.bezierCurveTo(173.55500000000004, 69.26300000000002, 61.45600000000003, 99.64200000000001, 61.45600000000003, 99.64200000000001);
+ctx.translate(54.71468582831338, 75.80595325901092);
+ctx.rotate(0);
+ctx.arc(0, 0, 24.771, 1.2951744244375323, 1.562023287379716, 0);
+ctx.rotate(0);
+ctx.translate(-54.71468582831338, -75.80595325901092);
+ctx.bezierCurveTo(46.31700000000003, 100.62700000000001, 38.65100000000003, 95.84500000000001, 38.71300000000003, 85.768);
+ctx.bezierCurveTo(38.73700000000003, 81.825, 39.94400000000003, 77.07, 42.74100000000003, 71.477);
+ctx.closePath();
+ctx.fill("evenodd");
+ctx.stroke();
+ctx.restore();
+ctx.restore();
+ctx.restore();
+
+</script>
+</html>
